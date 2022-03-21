@@ -1,0 +1,38 @@
+<!--THER ARE SOME ADDITIONAL TABLES THAT CAN ADD ADDITIONAL MEANING AND ACCESIBILITY TO THE TABLE 
+1.THE <CAPTION> ELEMENT :
+    THE <CAPTION>TAG DEFINES A TABLE CAPTION.
+        THE <CAPTION>TAG MUST BE INSERTED IMMEDIATELY AFTER THE <TABLE>TAG.
+            THE <CAPTION>TAG MUST BE INSERTED IMMEDIATELY AFTER THE <TABLE>TAG-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>the caption tag</title>
+    
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+    </style>
+    </head>
+    <body>
+        <table>
+            <caption>Student Information</caption>
+            <tr>
+                <th>RollNo</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>AAA</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>BBB</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>CCC</td>
+        </tr>
+        </table>
+    </body>
+</html>
